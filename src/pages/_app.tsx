@@ -1,7 +1,7 @@
 import React, { ReactNode} from "react";
 import { ChakraProvider, CSSReset } from '@chakra-ui/react';
 import { AppProps } from "next/app";
-// import Layout from "../components/Layout";
+import Layout from "../../component/Layout";
 // import theme from "../theme/theme";
 
 import "../styles/globals.css";
@@ -12,9 +12,9 @@ const App = ({ Component, pageProps }: AppProps): ReactNode => {
 
         <ChakraProvider >
             <CSSReset />
-            {/* <Layout> */}
+            <Layout>
                 <Component {...pageProps} />
-            {/* </Layout> */}
+            </Layout>
         </ChakraProvider>
     )
 }
