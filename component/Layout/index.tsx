@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react';
 import React, { ReactNode } from 'react';
-// import Footer from './Footer';
+import Footer from './Footer';
 import Navbar from './Navbar';
 
 interface LayoutProps {
@@ -12,11 +12,10 @@ const Layout = ({children}: LayoutProps) =>  {
         <>
             {/* Navbar goes here */}
             <Navbar />
-            {/* children will accept all the child components to be displayed */}
             <Box>
                 {children}
             </Box>
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
