@@ -1,4 +1,4 @@
-import { Grid, GridItem, Heading, Text, Image } from '@chakra-ui/react';
+import { Grid, GridItem, Heading, Text, Image, Stack, StackDivider, Box, useColorModeValue } from '@chakra-ui/react';
 import Head from 'next/head';
 import React from 'react';
 import Section from '../../component/Section';
@@ -80,6 +80,79 @@ const AboutUs = () => {
                                 />
                             </GridItem>
                         </Grid>
+                </SectionContent>
+            </Section>
+
+            <Section>
+                <SectionContent>
+                <Stack
+                            w         = "100%"
+                            mt        = "1.5em"
+                            divider   = {<StackDivider 
+                                border       = "1px solid"
+                                borderRadius = "lg"
+                            />}
+                            justify   = "center"
+                            spacing   = {10} 
+                            direction = {["column", "row"]}
+                        >
+                            <Box
+                                width= "xs"
+                            >
+                                <Heading
+                                    textAlign="center"
+                                    color ={useColorModeValue("pink.500", "pink.700")}
+                                >
+                                    Our Mission
+                                </Heading>
+                                <Text
+                                    mt = "1em"
+                                    fontSize= "xl"
+                                    textAlign= "center"
+                                >
+                                    To Provide the highest standard of product and services
+                                     to both retailers and customers.
+                                </Text>
+                            </Box>
+                            <Box
+                                width= "xs"
+                            >
+                                <Heading
+                                    textAlign="center"
+                                    color = {useColorModeValue("green.500","green.700")}
+                                >
+                                    Our Vision
+                                </Heading>
+                                <Text
+                                    mt = "1em"
+                                    fontSize= "xl"
+                                    textAlign= "center"
+                                >
+                                    To earn customers loyalty and trust for the company by 
+                                    providing them with nothing but the best, by means of 
+                                    utilizing the highest quality of material, equipment&apos;s
+                                     and world-class systems.
+                                </Text>
+                            </Box>
+                            <Box
+                                width= "xs"
+                            >
+                                <Heading
+                                    textAlign="center"
+                                    color ={useColorModeValue("cyan.500", "cyan.700")}
+                                >
+                                    Core Values
+                                </Heading>
+                                <Text
+                                    mt = "1em"
+                                    fontSize= "xl"
+                                    textAlign= "center"
+                                >
+                                    Commitment, Genuine, Quality, Respect & Teamwork.
+                                </Text>
+                            </Box>
+                        </Stack>
+
                 </SectionContent>
             </Section>
         </>
