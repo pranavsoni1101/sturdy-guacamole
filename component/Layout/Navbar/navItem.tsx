@@ -17,7 +17,10 @@ const navItems: Array<NavItem> = [
       label: 'Contact Us',
       href: "/contactUs"
     },
-    
+    {
+      label: 'Our Products',
+      href: "/ourProducts"
+    },
   ];
   
 
