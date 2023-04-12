@@ -27,23 +27,6 @@ import Link from 'next/link';
 import navItems from './navItem';
 import { BsChevronRight } from 'react-icons/bs';
 
-const NavLink = ({ children }: { children: ReactNode }) => (
-  <Link
-    href={'#'}>
-      <Text
-      px={2}
-      py={1}
-      rounded={'md'}
-      _hover={{
-        textDecoration: 'none',
-        bg: useColorModeValue('gray.200', 'gray.700'),
-      }}
-      >
-        {children}
-      </Text>
-  </Link>
-);
-
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -53,7 +36,7 @@ const Navbar = () => {
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Heading
             as = "h3"
-            fontSize= "lg"
+            fontSize= "xl"
           >
             Pashupati
           </Heading>
@@ -66,7 +49,7 @@ const Navbar = () => {
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
               </Button>
 
-              <Menu>
+              {/* <Menu>
                 <MenuButton
                   as={Button}
                   rounded={'full'}
@@ -96,7 +79,7 @@ const Navbar = () => {
                   <MenuItem>Account Settings</MenuItem>
                   <MenuItem>Logout</MenuItem>
                 </MenuList>
-              </Menu>
+              </Menu> */}
             </Stack>
           </Flex>
         </Flex>
@@ -121,7 +104,7 @@ const DesktopNav = () => {
                 >
                   <Text
                     p={2}
-                    fontSize={'sm'}
+                    fontSize={'md'}
                     fontWeight={500}
                     color={linkColor}
                     _hover={{
@@ -157,6 +140,8 @@ const DesktopNav = () => {
 };
 
 const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
+  const linkColor = useColorModeValue('gray.600', 'gray.200');
+  const linkHoverColor = useColorModeValue('gray.800', 'white');
   return (
       <Link
           href={`${href}`}
@@ -166,7 +151,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
           display={'block'}
           p={2}
           rounded={'md'}
-          _hover={{ bg: useColorModeValue('brand1.50', 'gray.900') }}
+          _hover={{ bg: linkHoverColor }}
         >
           <Stack direction={'row'} align={'center'}>
               <Box>
