@@ -7,7 +7,7 @@ interface NavItem {
 const navItems: Array<NavItem> = [
     {
       label: 'Home',
-      href: "/home"
+      href: "/"
     },
     {
       label: 'About Us',
