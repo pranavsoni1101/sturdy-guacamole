@@ -1,4 +1,5 @@
 import { Grid, Box, Heading, GridItem, Image, Text, Button } from '@chakra-ui/react';
+import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import Section from '../../../component/Section';
@@ -8,6 +9,9 @@ import productData from './data';
 const OurProducts = () => {
     return(
         <>
+            <Head>
+                <title>Our Products</title>
+            </Head>
             <Section>
                 <SectionContent>
                     <Heading>
