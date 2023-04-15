@@ -17,6 +17,7 @@ import {
     useColorModeValue,
     VStack,
   } from '@chakra-ui/react';
+import Head from 'next/head';
   import React from 'react';
   import { BsGithub, BsLinkedin, BsPerson, BsTwitter } from 'react-icons/bs';
   import { MdEmail, MdOutlineEmail } from 'react-icons/md';
@@ -40,6 +41,10 @@ import {
     const { hasCopied, onCopy } = useClipboard('example@example.com');
   
     return (
+      <>
+      <Head>
+        <title>Contact Us</title>
+      </Head>
       <Flex
         bg={useColorModeValue('gray.100', 'gray.900')}
         align="center"
@@ -191,5 +196,6 @@ import {
           </Box>
         </Box>
       </Flex>
+      </>
     );
   }
