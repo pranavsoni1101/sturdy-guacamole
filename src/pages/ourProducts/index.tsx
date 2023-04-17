@@ -29,7 +29,7 @@ const OurProducts = () => {
                                 <Box
                                     boxShadow    = "lg"
                                     borderRadius = "lg"
-                                    h = "xl"
+                                    h = "lg"
                                 >
                                     <Image 
                                         src={product.img} 
@@ -50,6 +50,7 @@ const OurProducts = () => {
                                         </Heading>
                                         <Text
                                             mt = "0.5em"
+                                            noOfLines={3}
                                         >
                                             {product.subLabel}
                                         </Text>
