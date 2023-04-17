@@ -2,6 +2,7 @@ import { Grid, GridItem, Heading, Text, Image, Button } from "@chakra-ui/react";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+import Carousel from "../../component/Carousel";
 import Section from "../../component/Section";
 import SectionContent from "../../component/Section/SectionContent";
 
@@ -87,9 +88,13 @@ const Home = () => {
                 bgColor = "brand1.50"
             >
 				<SectionContent>
-
                 </SectionContent>
 			</Section>
+            <Section>
+                <SectionContent>
+                    <Carousel />
+                </SectionContent>
+            </Section>
 		</>
 	);
 };
