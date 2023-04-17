@@ -90,6 +90,7 @@ const AboutUs = () => {
                             mt        = "1.5em"
                             divider   = {<StackDivider 
                                 border       = "1px solid"
+                                borderColor  = "brand1.500"
                                 borderRadius = "lg"
                             />}
                             justify   = "center"
