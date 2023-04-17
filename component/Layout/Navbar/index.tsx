@@ -104,13 +104,32 @@ const DesktopNav = () => {
                 >
                   <Text
                     p={2}
-                    fontSize={'md'}
+                    fontSize={'lg'}
                     fontWeight={500}
+                    position = "relative"
                     color={linkColor}
+                    _before = {{
+                      content: '""',
+                      position: "absolute",
+                      width : "100%",
+                      height: "2px",
+                      bottom: "0",
+                      left: "0",
+                      backgroundColor: "brand1.500",
+                      visibility: "hidden",
+                      transform: "scaleX(0)",
+                      transition: "all 0.3s ease-in-out"
+
+                    }}
                     _hover={{
                       textDecoration: 'none',
-                      color: linkHoverColor,
+                      color: "brand1.500",
+                      _before: {
+                        visibility: "visible",
+                        transform: "scaleX(1)"
+                      }
                     }}
+
                   >
                     {navItem.label}
                   </Text>
