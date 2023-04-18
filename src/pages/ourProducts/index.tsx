@@ -1,3 +1,4 @@
+import { ArrowForwardIcon } from '@chakra-ui/icons';
 import { Grid, Box, Heading, GridItem, Image, Text, Button } from '@chakra-ui/react';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -57,10 +58,19 @@ const OurProducts = () => {
 
                                     </Box>
                                     <Button
+                                        mr={"1em"}
                                         as= {Link}
                                         float= "right"
-                                        mr={"1em"}
+                                        border = "2px solid"
+                                        color = "brand1.500"
+                                        borderColor= "brand1.500"
+                                        background= "none"
+                                        rightIcon={<ArrowForwardIcon />}
                                         href = {`/ourProducts/${product.label}`}
+                                        _hover = {{
+                                            background: "brand1.500",
+                                            color: "#fff"
+                                        }}
                                     >
                                         Explore More
                                     </Button>

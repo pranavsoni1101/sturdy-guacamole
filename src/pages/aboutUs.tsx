@@ -83,11 +83,14 @@ const AboutUs = () => {
                 </SectionContent>
             </Section>
 
-            <Section>
+            <Section
+                bgColor = "brand1.50"
+                height = "sm"
+            >
                 <SectionContent>
                 <Stack
                             w         = "100%"
-                            mt        = "1.5em"
+                            mt        = "0.3em"
                             divider   = {<StackDivider 
                                 border       = "1px solid"
                                 borderColor  = "brand1.500"
