@@ -1,6 +1,7 @@
 interface ProductDataProps {
 	label: string;
 	img: string;
+	img2?: string;
 	subLabel?: string;
 	children?: Array<ProductDataProps>;
 }
@@ -10,6 +11,33 @@ const productData: Array<ProductDataProps> = [
 		subLabel:
 			"100 percent cotton double bed sheet with 2 pillow covers in multiple designs such as stripes, florals and abstract. Enliven your bedroom decor with our bed sheets which come in a vibrant range of colors and designs that will look great in Indian homes.",
 		img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+		children: [
+			{
+				label: "Blue berry",
+				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				
+			},
+			{
+				label: "Blue berry",
+				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				
+			},
+			{
+				label: "Blue berry",
+				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				
+			},
+			{
+				label: "Blue berry",
+				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				
+			},
+			{
+				label: "Blue berry",
+				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				
+			}
+		]
 	},
 	{
 		label: "Mattress Protector(WaterProof) ",

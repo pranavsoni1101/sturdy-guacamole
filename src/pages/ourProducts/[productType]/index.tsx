@@ -5,13 +5,14 @@ import SectionContent from '../../../../component/Section/SectionContent';
 import { useRouter } from 'next/router';
 import data from '../data';
 import Link from 'next/link';
+import Head from 'next/head';
 
 
 const ProductType = () => {
-    const router  = useRouter();
-    const { productType } = router.query;
-    const [url, setUrl] = useState(productType);
 
+    const router  = useRouter();
+    const { productType } = router.query!;
+    const [url, setUrl] = useState(productType);
     
     console.log(productType);
     
@@ -28,6 +29,9 @@ const ProductType = () => {
     }, [])
     return(
         <>
+            <Head>
+                <title>{state.label}</title>
+            </Head>
             <Section>
                 <SectionContent>
                     <Heading>
@@ -42,34 +46,38 @@ const ProductType = () => {
                         templateColumns = "repeat(12, 1fr)"
                         gap={4}
                     >
-                        <GridItem
-                            colSpan={3}
-                        >
-                            <Link
-                                href={`/ourProducts/${productType}/product`}
+                        {/* {state.children.map(child => ( */}
+                            <GridItem
+                                colSpan={3}
                             >
-                            <Box
-                                borderRadius= "3xl"
-                                boxShadow= "xl"
-                            >
-                                <Image 
-                                    borderRadius= "20px 20px 0  0"
-                                    src='https://images.unsplash.com/photo-1681725142773-5756fad63e93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
-                                />
-                                <Box
-                                    p = "1em"
-                                    textAlign= "center"
+                                <Link
+                                    // href={`/ourProducts/${productType}/${child.label}`}
+                                    href={`/ourProducts/${productType}/product  `}
                                 >
-                                    <Heading
-                                        as = "h4"
-                                        fontSize= "md"
+                                <Box
+                                    borderRadius= "3xl"
+                                    boxShadow= "xl"
+                                >
+                                    <Image 
+                                        borderRadius= "20px 20px 0  0"
+                                        src='https://images.unsplash.com/photo-1681725142773-5756fad63e93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
+                                    />
+                                    <Box
+                                        p = "1em"
+                                        textAlign= "center"
                                     >
-                                        Hiii
-                                    </Heading>
+                                        <Heading
+                                            as = "h4"
+                                            fontSize= "md"
+                                        >
+                                            Hiii
+                                        </Heading>
+                                    </Box>
                                 </Box>
-                            </Box>
-                            </Link>
-                        </GridItem>
+                                </Link>
+                            </GridItem>
+
+                        {/* ))} */}
                     </Grid>
                 </SectionContent>
             </Section>
