@@ -42,8 +42,8 @@ export default function Carousel() {
     <Box
       position={'relative'}
       margin = "0 auto"
-      height={'600px'}
-      width={'5xl'}
+      h={'800px'}
+      w={'1322px'}
       overflow={'hidden'}>
       {/* CSS files for react-slick */}
       <link
@@ -88,7 +88,8 @@ export default function Carousel() {
             key={index}
             height={'6xl'}
             position="relative"
-            backgroundPosition="center"
+            backgroundPosition= "center"
+            // backgroundPosition="50% 50%"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
             backgroundImage={`url(${card.img})`}>
@@ -98,10 +99,13 @@ export default function Carousel() {
                 spacing={6}
                 w={'full'}
                 maxW={'lg'}
+                p = "1em"
+                bg = "white"
                 position="absolute"
-                top="50%"
+                top="25%"
+                right= "-40%"
                 transform="translate(0, -50%)">
-                <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+                <Heading fontSize={{ base: '3xl', md: '3xl', lg: '4xl' }}>
                   {card.label}
                 </Heading>
                 <Text fontSize={{ base: 'md', lg: 'lg' }} color="GrayText">
