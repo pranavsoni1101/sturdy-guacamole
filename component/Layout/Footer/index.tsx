@@ -5,12 +5,12 @@ import {
   Stack,
   SimpleGrid,
   Text,
-  Link,
   VisuallyHidden,
   chakra,
   useColorModeValue,
 } from '@chakra-ui/react';
 import { FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa';
+import Link from 'next/link';
 
 import AppStoreBadge from '../../AppStoreBadge';
 import PlayStoreBadge from '../../PlayStoreBadge';
@@ -63,7 +63,7 @@ export default function LargeWithAppLinksAndSocial() {
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <Link href={'#'}>About Us</Link>
+            <Link href={'/aboutUs'}>About Us</Link>
             <Link href={'#'}>Blog</Link>
             <Link href={'#'}>Careers</Link>
             <Link href={'#'}>Contact Us</Link>
