@@ -19,7 +19,7 @@ const Home = () => {
                         gap={4}
                     >
 						<GridItem 
-                            colSpan={5}
+                            colSpan={[12, 12, 12, 6, 6,5]}
                         >
 							<Heading 
                                 as="h1" 
@@ -65,7 +65,9 @@ const Home = () => {
 								Read Our Story
 							</Button>
 						</GridItem>
-						<GridItem colSpan={7}>
+						<GridItem 
+                            colSpan={[12, 12, 12, 6, 6,7]}
+						>
 							<AspectRatio
 								mt= "10%"
 								boxShadow= "2xl"
