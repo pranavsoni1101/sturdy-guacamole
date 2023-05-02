@@ -87,7 +87,7 @@ export default function LargeWithAppLinksAndSocial() {
             >
               <PlayStoreBadge />
             </Link>
-            <AppStoreBadge />
+            {/* <AppStoreBadge /> */}
           </Stack>
         </SimpleGrid>
       </Container>
