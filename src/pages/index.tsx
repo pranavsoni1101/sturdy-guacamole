@@ -74,8 +74,8 @@ const Home = () => {
 								// h = "100%"
 								// mt = "10%"
 							>
-								<video autoPlay loop style={{borderRadius: "20px"}}>
-									<source src="/homeVid.mp4"/>
+								<video autoPlay muted loop style={{borderRadius: "20px"}}>
+									<source src="/homeVid.mp4" type="video/mp4"/>
 								</video>
 
 							</AspectRatio>
