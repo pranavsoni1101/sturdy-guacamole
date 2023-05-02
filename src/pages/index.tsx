@@ -1,4 +1,4 @@
-import { Grid, GridItem, Heading, Text, Image, Button } from "@chakra-ui/react";
+import { Grid, GridItem, Heading, Text, Image, Button, HStack, StackDivider, Box } from "@chakra-ui/react";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<>
 			<Head>
-				<title>Home</title>
+				<title>Pashupati Textiles</title>
 			</Head>
 			<Section>
 				<SectionContent>
@@ -84,10 +84,99 @@ const Home = () => {
             <br />
 
 			<Section
-                height = "15em"
+                height = "19em"
                 bgColor = "brand1.50"
             >
 				<SectionContent>
+					<HStack
+						// display= "flex"
+						justify= "center"
+						align= "center"
+						spacing = {10}
+						divider = {
+							<StackDivider
+								border="1px solid"
+								borderColor="brand1.500"
+								borderRadius="lg"
+							/>
+						}
+					>
+						<Box 
+							w = "2xs"
+						>
+							<Image 
+								m = "0 auto"
+								boxSize= "8em"
+								src="/adv_tech.png"
+							/>
+							<Text
+								mt 		   = "1em"
+								fontSize   = "xl"
+								textAlign  = "center"
+								fontWeight = "bold"
+								textTransform= "capitalize"
+							>
+								Advance Technology
+							</Text>
+						</Box>
+						{/* ISO */}
+						<Box 
+							w = "2xs"
+						>
+							<Image 
+								m = "0 auto"
+								boxSize= "8em"
+								src="/iso.png"
+							/>
+							<Text
+								mt 		   = "1em"
+								fontSize   = "xl"
+								textAlign  = "center"
+								fontWeight = "bold"
+								textTransform= "capitalize"
+							>
+								Established in 1973
+							</Text>
+						</Box>
+						<Box 
+							w = "2xs"
+						>
+							<Image 
+								m = "0 auto"
+								boxSize= "8em"
+								src="/iso.png"
+							/>
+							<Text
+								mt 		   = "1em"
+								fontSize   = "xl"
+								textAlign  = "center"
+								fontWeight = "bold"
+								textTransform= "capitalize"
+							>
+								UASL Certified
+							</Text>
+						</Box>
+
+						{/* Budget Friendly */}
+						<Box 
+							w = "2xs"
+						>
+							<Image 
+								m = "0 auto"
+								boxSize= "8em"
+								src="/affordable.png"
+							/>
+							<Text
+								mt 		   = "1em"
+								fontSize   = "xl"
+								textAlign  = "center"
+								fontWeight = "bold"
+								textTransform= "capitalize"
+							>
+								Budget Friendly
+							</Text>
+						</Box>
+					</HStack>
                 </SectionContent>
 			</Section>
             <Section>
