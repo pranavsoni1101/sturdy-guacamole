@@ -19,12 +19,12 @@ const Home = () => {
                         gap={4}
                     >
 						<GridItem 
-                            colSpan={6}
+                            colSpan={5}
                         >
 							<Heading 
                                 as="h1" 
                                 mt = "13%"
-                                size="4xl"
+                                size="3xl"
                             >
 								Welcome To Pashupati Textile Prints Pvt Ltd
 							</Heading>
@@ -65,9 +65,9 @@ const Home = () => {
 								Read Our Story
 							</Button>
 						</GridItem>
-						<GridItem colStart={7} colEnd={12}>
+						<GridItem colSpan={7}>
 							<AspectRatio
-								mt= "25%"
+								mt= "10%"
 								boxShadow= "2xl"
 								borderRadius= "20px"
 								ml = "35px"
