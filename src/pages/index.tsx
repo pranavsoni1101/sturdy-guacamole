@@ -1,4 +1,4 @@
-import { Grid, GridItem, Heading, Text, Image, Button, HStack, StackDivider, Box } from "@chakra-ui/react";
+import { Grid, GridItem, Heading, Text, Image, Button, HStack, StackDivider, Box, AspectRatio } from "@chakra-ui/react";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
@@ -66,13 +66,29 @@ const Home = () => {
 							</Button>
 						</GridItem>
 						<GridItem colStart={7} colEnd={12}>
-							<Image
-                                mt = "15%"
- 								ml="40"
-								src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
-								alt="What makes us unique"
-								borderRadius="md"
-							/>
+							<AspectRatio
+								mt= "25%"
+								boxShadow= "2xl"
+								borderRadius= "20px"
+								ml = "35px"
+								// h = "100%"
+								// mt = "10%"
+							>
+								<video autoPlay loop style={{borderRadius: "20px"}}>
+									<source src="/homeVid.mp4"/>
+								</video>
+
+							</AspectRatio>
+								{/* <iframe 
+									src="/homeVid.mp4"
+								/> */}
+								{/* <Image
+									mt = "15%"
+									ml="40"
+									src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
+									alt="What makes us unique"
+									borderRadius="md"
+								/> */}
 						</GridItem>
 					</Grid>
 				</SectionContent>
