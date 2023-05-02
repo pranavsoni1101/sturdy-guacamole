@@ -8,11 +8,7 @@ import {
   PopoverTrigger,
   PopoverContent,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
+  Image,
   useDisclosure,
   Heading,
   useColorModeValue,
@@ -33,14 +29,28 @@ const Navbar = () => {
   return (
     <>
       <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <Heading
-            as = "h3"
-            fontSize= "xl"
+        <Flex h={20} alignItems={'center'} justifyContent={'space-between'}>
+          <Flex
+            as  = {Link}
+            href = "/"
+            justify="center"
+            align="center"
           >
-            Pashupati
-          </Heading>
-          <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
+            <Image 
+              display= "inline-block"
+              src= "/PASHUPATI.png"
+              boxSize= "5em"
+            />
+            <Heading
+              as = "h3"
+              ml = "12px"
+              display= "inline-block"
+              fontSize= "xl"
+            >
+              Pashupati Textiles
+            </Heading>
+          </Flex>
+          <Flex display={{ base: 'none', md: 'flex' }} mx = "auto">
             <DesktopNav />
           </Flex>
           <Flex alignItems={'center'}>
@@ -48,38 +58,6 @@ const Navbar = () => {
               <Button onClick={toggleColorMode}>
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
               </Button>
-
-              {/* <Menu>
-                <MenuButton
-                  as={Button}
-                  rounded={'full'}
-                  variant={'link'}
-                  cursor={'pointer'}
-                  minW={0}>
-                  <Avatar
-                    size={'sm'}
-                    src={'https://avatars.dicebear.com/api/male/username.svg'}
-                  />
-                </MenuButton>
-                <MenuList alignItems={'center'}>
-                  <br />
-                  <Center>
-                    <Avatar
-                      size={'2xl'}
-                      src={'https://avatars.dicebear.com/api/male/username.svg'}
-                    />
-                  </Center>
-                  <br />
-                  <Center>
-                    <p>Username</p>
-                  </Center>
-                  <br />
-                  <MenuDivider />
-                  <MenuItem>Your Servers</MenuItem>
-                  <MenuItem>Account Settings</MenuItem>
-                  <MenuItem>Logout</MenuItem>
-                </MenuList>
-              </Menu> */}
             </Stack>
           </Flex>
         </Flex>
