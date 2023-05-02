@@ -64,9 +64,7 @@ export default function LargeWithAppLinksAndSocial() {
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
             <Link href={'/aboutUs'}>About Us</Link>
-            <Link href={'#'}>Blog</Link>
-            <Link href={'#'}>Careers</Link>
-            <Link href={'#'}>Contact Us</Link>
+            <Link href={'/contactUs'}>Contact Us</Link>
           </Stack>
 
           <Stack align={'flex-start'}>
@@ -77,17 +75,19 @@ export default function LargeWithAppLinksAndSocial() {
           </Stack>
 
           <Stack align={'flex-start'}>
-            <ListHeader>Legal</ListHeader>
-            <Link href={'#'}>Cookies Policy</Link>
-            <Link href={'#'}>Privacy Policy</Link>
-            <Link href={'#'}>Terms of Service</Link>
-            <Link href={'#'}>Law Enforcement</Link>
+            <ListHeader>Follow Us On</ListHeader>
+            <Link href={'https://www.facebook.com/pashupatitextile/'}>Facebook</Link>
+            <Link href={'https://www.linkedin.com/company/pashupatitextile/'}>LinkedIn</Link>
           </Stack>
 
           <Stack align={'flex-start'}>
             <ListHeader>Install App</ListHeader>
+            <Link
+              href= "https://play.google.com/store/apps/details?id=pashupati.com.pashupati&hl=en_IN&gl=US&pli=1"
+            >
+              <PlayStoreBadge />
+            </Link>
             <AppStoreBadge />
-            <PlayStoreBadge />
           </Stack>
         </SimpleGrid>
       </Container>
@@ -104,7 +104,7 @@ export default function LargeWithAppLinksAndSocial() {
           spacing={4}
           justify={{ md: 'space-between' }}
           align={{ md: 'center' }}>
-          <Text>© 2022 Chakra Templates. All rights reserved</Text>
+          <Text>© 2023 Pashupati Textiles. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />
@@ -117,6 +117,34 @@ export default function LargeWithAppLinksAndSocial() {
             </SocialButton>
           </Stack>
         </Container>
+          {/* <Text
+            my = "2em"
+            // textAlign= "center"
+            _before={{
+              backgroundColor: "#000",
+              content: '""',
+              display: "inline-block",
+              height: "1px",
+              position: "relative",
+              verticalAlign: "middle",
+              width: "100%",
+              right: "0.5em",
+              marginLeft: "-51.5%"
+            }}  
+            _after={{
+              backgroundColor: "#000",
+              content: '""',
+              display: "inline-block",
+              height: "1px",
+              position: "relative",
+              verticalAlign: "middle",
+              width: "50%",
+              left: "0.5em",
+              marginRight: "-60%"
+            }}  
+          >
+            Made By Pranav Soni
+          </Text> */}
       </Box>
     </Box>
   );
