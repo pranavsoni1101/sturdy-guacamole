@@ -6,47 +6,71 @@ import { useRouter } from 'next/router';
 import data from '../data';
 import Link from 'next/link';
 import Head from 'next/head';
+import path from 'path';
+import fs from "fs/promises";
+import allProducts from '../../../../backendData/data.json';
 
+import { GetStaticPaths, GetStaticProps } from 'next';
 
-const ProductType = () => {
+interface PropsInterface {
+    label: string | undefined;
+	img: string | undefined;
+	img2?: string;
+	subLabel?: string;
+	children?: Array<PropsInterface>;
+}
+
+const ProductType = (props: { data: PropsInterface, hasError: boolean }) => {
 
     const router  = useRouter();
     const { productType } = router.query!;
-    const [url, setUrl] = useState(productType);
     
-    console.log(productType);
     
-    const [state, setState]= useState({});
-    console.log(state);
+    const [state, setState]= useState<PropsInterface[]>([]);
+    console.log("state",state);
     
 
     useEffect(() => {
-        data.map((product) => {
+        // localStorage.setItem("url", productType!.toString());
+        
+        // if(productType !== localStorage.getItem("url"))
+        // localStorage.clear();
+        
+        allProducts.map((product) => {
             if(productType === product.label){
-                setState(product);
+                setState(prevState => [
+                    ...prevState,
+                    product
+                ]);
             }
         })
-    }, [])
+
+    }, [productType])
+    // const {label, subLabel, img, children} = props.specificStarData!;
+    // const {label, subLabel} = state;
+    // const {children} : Array<PropsInterface> = state;
     return(
         <>
             <Head>
-                <title>{state.label}</title>
+                {/* <title>{state[0].label}</title> */}
             </Head>
             <Section>
                 <SectionContent>
                     <Heading>
-                        {state.label}
+                        {/* {state[0].label} */}
                     </Heading>
                     <Text
                         my = "1em"
                     >
-                        {state.subLabel}
+                        {/* {state[0].subLabel} */}
+                        {/* {props.data.subLabel} */}
                     </Text>
                     <Grid
                         templateColumns = "repeat(12, 1fr)"
                         gap={4}
                     >
-                        {/* {state.children.map(child => ( */}
+                        {/* {props.data.children?.map(child => ( */}
+                        {/* {state[0].children!.map((child: any) => ( */}
                             <GridItem
                                 colSpan={3}
                             >
@@ -70,14 +94,13 @@ const ProductType = () => {
                                             as = "h4"
                                             fontSize= "md"
                                         >
-                                            Hiii
+                                            {/* {child.label} */}
                                         </Heading>
                                     </Box>
                                 </Box>
                                 </Link>
                             </GridItem>
-
-                        {/* ))} */}
+                        {/* ))}  */}
                     </Grid>
                 </SectionContent>
             </Section>
@@ -86,3 +109,48 @@ const ProductType = () => {
 }
 
 export default ProductType;
+
+async function getData() {
+    // log
+    const filePath = path.join(process.cwd(), 'backendData', 'data.json');
+    const fileData = await fs.readFile(filePath);
+    console.log("file fuck data, ",JSON.parse(fileData.toString()));
+    const data = JSON.parse(JSON.stringify(fileData));
+
+    return data;
+  }
+
+  export const getStaticProps: GetStaticProps = async (context) => {
+    const productLabel = context.params?.productType;
+    let data, foundItem;
+    try{
+        data = await getData();
+        foundItem = data.find((item: PropsInterface) => productLabel === item.label);
+    }
+    catch(err){
+        throw err;
+    }
+    if (!foundItem) {
+      return {
+        props: { hasError: true },
+      }
+  }
+  console.log("found item at",foundItem)
+  return {
+    props: {
+      data: foundItem
+    }
+  }
+}
+
+export const getStaticPaths: GetStaticPaths = async () => {
+    const data = await getData();
+    // console.log("Data",data);
+    
+    const pathsWithParams = data.data.map((star: PropsInterface) => ({ params: { productType: star.label }}))
+
+    return {
+        paths: [],
+        fallback: true
+    }
+  }

@@ -14,29 +14,200 @@ const productData: Array<ProductDataProps> = [
 		children: [
 			{
 				label: "Blue berry",
-				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				img: ""				
+			},
+			{
+				label: "Classic Dye",
+				img: "/CLASSICDYE_SET.jpg",
 				
 			},
 			{
-				label: "Blue berry",
-				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				label: "Blossoms",
+				img: "/BLOSSOMS_SET.jpg",
 				
 			},
 			{
-				label: "Blue berry",
-				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				label: "Colors",
+				img: "/COLORS_SET.jpg",
 				
 			},
 			{
-				label: "Blue berry",
-				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				label: "Classic",
+				img: "/CLASSIC_SET.jpg",
 				
 			},
 			{
-				label: "Blue berry",
-				img: "https://images.unsplash.com/photo-1559841771-599b6eeaca62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+				label: "Crown",
+				img: "/CLASSIC_SET.jpg",
+			},
+			{
+				label: "Divin",
+				img: "/DIVINE_SET.jpg",	
+			},
+			{
+				label: "Elegance",
+				img: "/ELEGANCE_SET.jpg",	
+			},
+			{
+				label: "Fantasy",
+				img: "/FANTASY_SET.jpg",
+			},
+			{
+				label: "Festival",
+				img: "/FESTIVAL_SET.jpg",
+				
+			},
+			{
+				label: "Freedom",
+				img: "/FREEDOM_SET.jpg",
+				
+			},
+			{
+				label: "Freedom Dye",
+				img: "/FREEDOMDYE_SET.jpg",
+				
+			},
+			{
+				label: "Five Star White",
+				img: "/CLASSIC_SET.jpg",
+				
+			},
+			{
+				label: "Five Star Dekuxe",
+				img: "/CLASSIC_SET.jpg",
+				
+			},
+			{
+				label: "Five Star Supreme",
+				img: "/CLASSIC_SET.jpg",
+				
+			},
+			{
+				label: "Galaxy",
+				img: "/GALAXY_SET.jpg",
+				
+			},
+			{
+				label: "Glory",
+				img: "/GLORY_SET.jpg",
+				
+			},
+			{
+				label: "Impression",
+				img: "/IMPRESSION_SET.jpg",
+				
+			},
+			{
+				label: "Kidzee",
+				img: "/KIDZEE_SET.jpg",
+				
+			},
+			{
+				label: "Layers",
+				img: "/LAYERS_SET.jpg",
+				
+			},
+			{
+				label: "Lotus",
+				img: "/LOTUS_SET.jpg",
+				
+			},
+			{
+				label: "Magic",
+				img: "/MAGIC_SET.jpg",
+				
+			},
+			{
+				label: "Magnum",
+				img: "/MAGNUM_SET.jpg",
+				
+			},
+			{
+				label: "Miracle",
+				img: "/MIRACLE_SET.jpg",
+				
+			},
+			{
+				label: "Orchid",
+				img: "/ORCHID_SET.jpg",
+				
+			},
+			{
+				label: "Opel",
+				img: "/OPEL_SET.jpg",
+				
+			},
+			{
+				label: "Oreava",
+				img: "/OREAVA_SET.jpg",
+				
+			},
+			{
+				label: "Paradise",
+				img: "/PARADISE_SET.jpg",
+				
+			},
+			{
+				label: "Plain Cashment White",
+				img: "/LAYERS_SET.jpg",
+				
+			},
+			{
+				label: "Polygold",
+				img: "/POLYGOLD_SET.jpg",
+				
+			},
+			{
+				label: "Plain Shiting White",
+				img: "/LAYERS_SET.jpg",
+				
+			},
+			{
+				label: "Qualis",
+				img: "/QUALIS_SET.jpg",
+				
+			},
+			{
+				label: "Richlook",
+				img: "/RICHLOOK_SET.jpg",
+				
+			},
+			{
+				label: "Signity",
+				img: "/SIGNITY_SET.jpg",
+				
+			},
+			{
+				label: "Sunshine",
+				img: "/SUNSHINE_SET.jpg",
+				
+			},
+			{
+				label: "Titanic",
+				img: "/TITANIC_SET.jpg",
+				
+			},
+			{
+				label: "Unique",
+				img: "/UNIQUE_SET.jpg",
+				
+			},
+			{
+				label: "Vega",
+				img: "/VEGA_SET.jpg",
+				
+			},
+			{
+				label: "Venus",
+				img: "/VENUS_SET.jpg",
+				
+			},
+			{
+				label: "Victory",
+				img: "/VICTORY_SET.jpg",
 				
 			}
+
 		]
 	},
 	{

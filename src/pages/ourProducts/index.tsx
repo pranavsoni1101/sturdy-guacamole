@@ -1,13 +1,23 @@
-import { ArrowForwardIcon } from '@chakra-ui/icons';
-import { Grid, Box, Heading, GridItem, Image, Text, Button } from '@chakra-ui/react';
+import React, { FC } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import React from 'react';
+import { ArrowForwardIcon } from '@chakra-ui/icons';
+import { Grid, Box, Heading, GridItem, Image, Text, Button } from '@chakra-ui/react';
+import allProducts from '../../../backendData/data.json';
 import Section from '../../../component/Section';
 import SectionContent from '../../../component/Section/SectionContent';
 import productData from './data';
+import { GetStaticProps } from 'next';
 
-const OurProducts = () => {
+interface Props {
+    label: string;
+	img: string;
+	img2?: string;
+	subLabel?: string;
+	children?: Array<Props>;
+}
+
+const OurProducts: FC<Props> = (props) => {
     return(
         <>
             <Head>
@@ -22,7 +32,7 @@ const OurProducts = () => {
                         templateColumns = "repeat(12, 1fr)"
                         gap={4}
                     >
-                        {productData.map((product, index)=> (
+                        {allProducts.map((product , index)=> (
                             <GridItem
                                 colSpan={4}
                                 key = {index}
@@ -85,3 +95,11 @@ const OurProducts = () => {
 }
 
 export default OurProducts;
+
+export const getStaticProps: GetStaticProps = () => {
+return{
+    props: {
+        data: allProducts
+    }
+}
+}
