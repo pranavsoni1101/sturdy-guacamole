@@ -3,10 +3,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
 import { Grid, Box, Heading, GridItem, Image, Text, Button } from '@chakra-ui/react';
-// import allProducts from '../../../backendData/data.json';
 import Section from '../../../component/Section';
 import SectionContent from '../../../component/Section/SectionContent';
-import productData from './data';
 import { GetServerSideProps, GetStaticProps } from 'next';
 
 interface Props {
@@ -19,9 +17,9 @@ interface Props {
 }
 
 const OurProducts = (props :any) => {
-    console.log("this is products api fetch", props.allProducts.data[0]);
+    // console.log("this is products api fetch", props.allProducts.data);
 
-    const allProducts = props.allProducts.data[0];
+    const allProducts = props.allProducts.data;
     return(
         <>
             <Head>
@@ -36,7 +34,7 @@ const OurProducts = (props :any) => {
                         templateColumns = "repeat(12, 1fr)"
                         gap={4}
                     >
-                        {allProducts.products.map((product: Props , index: number)=> (
+                        {allProducts.map((product: Props , index: number)=> (
                             <GridItem
                                 colSpan={4}
                                 key = {index}
@@ -62,12 +60,14 @@ const OurProducts = (props :any) => {
                                             textTransform= "capitalize"
                                         >
                                             {product.label}
+                                            hii
                                         </Heading>
                                         <Text
                                             mt = "0.5em"
                                             noOfLines={3}
                                         >
                                             {product.subLabel}
+                                            Hello
                                         </Text>
 
                                     </Box>
