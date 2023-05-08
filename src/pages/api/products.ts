@@ -2,11 +2,11 @@ import clientPromise from "../../../lib/mongodb";
  
 const handler = async (req: any, res: any) => {
     const client = await clientPromise;
-    const db = client.db("nextjs-mongodb-demo");
+    const db = client.db(process.env.DB_NAME);
     switch (req.method) {
         case "GET":
-        const allPosts = await db.collection("products").find({}).toArray();
-        res.json({ status: 200, data: allPosts });
+        const allProducts = await db.collection("products").find().toArray();
+        res.json({ status: 200, data: allProducts });
         break;
     }
 }

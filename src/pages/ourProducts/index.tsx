@@ -3,13 +3,14 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
 import { Grid, Box, Heading, GridItem, Image, Text, Button } from '@chakra-ui/react';
-import allProducts from '../../../backendData/data.json';
+// import allProducts from '../../../backendData/data.json';
 import Section from '../../../component/Section';
 import SectionContent from '../../../component/Section/SectionContent';
 import productData from './data';
 import { GetServerSideProps, GetStaticProps } from 'next';
 
 interface Props {
+    allProducts: any;
     label: string;
 	img: string;
 	img2?: string;
@@ -17,8 +18,10 @@ interface Props {
 	children?: Array<Props>;
 }
 
-const OurProducts = (props :Props) => {
-    console.log("this is products api fetch", props);
+const OurProducts = (props :any) => {
+    console.log("this is products api fetch", props.allProducts.data[0]);
+
+    const allProducts = props.allProducts.data[0];
     return(
         <>
             <Head>
@@ -33,7 +36,7 @@ const OurProducts = (props :Props) => {
                         templateColumns = "repeat(12, 1fr)"
                         gap={4}
                     >
-                        {allProducts.products.map((product , index)=> (
+                        {allProducts.products.map((product: Props , index: number)=> (
                             <GridItem
                                 colSpan={4}
                                 key = {index}
@@ -97,14 +100,6 @@ const OurProducts = (props :Props) => {
 }
 
 export default OurProducts;
-
-// export const getStaticProps: GetStaticProps = () => {
-// return{
-//     props: {
-//         data: allProducts
-//     }
-// }
-// }
 
 export const getServerSideProps: GetServerSideProps = async () => {
     let res = await fetch("http://localhost:3000/api/products", {
