@@ -35,9 +35,10 @@ const ProductType = (props: any) => {
                         templateColumns = "repeat(12, 1fr)"
                         gap={4}
                     >
-                        {childrenProduct.map((child: any) => (
+                        {childrenProduct.map((child: any, index:number) => (
                             <GridItem
                                 colSpan={3}
+                                key = {index}
                             >
                                 <Link
                                     href={`/ourProducts/${productType}/${child.label}`}
