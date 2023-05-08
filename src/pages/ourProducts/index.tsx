@@ -7,7 +7,7 @@ import allProducts from '../../../backendData/data.json';
 import Section from '../../../component/Section';
 import SectionContent from '../../../component/Section/SectionContent';
 import productData from './data';
-import { GetStaticProps } from 'next';
+import { GetServerSideProps, GetStaticProps } from 'next';
 
 interface Props {
     label: string;
@@ -17,7 +17,8 @@ interface Props {
 	children?: Array<Props>;
 }
 
-const OurProducts = () => {
+const OurProducts = (props :Props) => {
+    console.log("this is products api fetch", props);
     return(
         <>
             <Head>
@@ -104,3 +105,19 @@ export default OurProducts;
 //     }
 // }
 // }
+
+export const getServerSideProps: GetServerSideProps = async () => {
+    let res = await fetch("http://localhost:3000/api/products", {
+        method: "GET",
+        headers: {
+            "Content-type": "application/json"
+        }
+    })
+
+    let allProducts = await res.json();
+
+    return {
+      props: {allProducts}
+    }
+  }
+  
