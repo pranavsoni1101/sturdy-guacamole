@@ -1,4 +1,5 @@
-	[{
+{	"products":[
+			{
 		"label": "1 Bedsheet + 2 Pillow Set",
 		"subLabel":
 			"100 percent cotton double bed sheet with 2 pillow covers in multiple designs such as stripes, florals and abstract. Enliven your bedroom decor with our bed sheets which come in a vibrant range of colors and designs that will look great in Indian homes.",
@@ -277,4 +278,4 @@
 		"subLabel":
 			"These Topsheets are skin friendly and therefore does not make any kind of discomfort or irritation. Moreover, you will never feel any fade in the color or textures in the topsheets even after having a machine wash. We intend you to provide with the premium quality and extraordinary topsheets , so that you can have luxuries feel in your bed room ",
 		"img": "https://images.unsplash.com/photo-1516707471165-777029111409?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cXVpbHR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-	}]
+	}]}

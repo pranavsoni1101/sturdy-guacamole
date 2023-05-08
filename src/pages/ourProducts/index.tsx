@@ -17,7 +17,7 @@ interface Props {
 	children?: Array<Props>;
 }
 
-const OurProducts: FC<Props> = (props) => {
+const OurProducts = () => {
     return(
         <>
             <Head>
@@ -32,7 +32,7 @@ const OurProducts: FC<Props> = (props) => {
                         templateColumns = "repeat(12, 1fr)"
                         gap={4}
                     >
-                        {allProducts.map((product , index)=> (
+                        {allProducts.products.map((product , index)=> (
                             <GridItem
                                 colSpan={4}
                                 key = {index}
@@ -77,6 +77,7 @@ const OurProducts: FC<Props> = (props) => {
                                         background= "none"
                                         rightIcon={<ArrowForwardIcon />}
                                         href = {`/ourProducts/${product.label}`}
+                                        replace
                                         _hover = {{
                                             background: "brand1.500",
                                             color: "#fff"
@@ -96,10 +97,10 @@ const OurProducts: FC<Props> = (props) => {
 
 export default OurProducts;
 
-export const getStaticProps: GetStaticProps = () => {
-return{
-    props: {
-        data: allProducts
-    }
-}
-}
+// export const getStaticProps: GetStaticProps = () => {
+// return{
+//     props: {
+//         data: allProducts
+//     }
+// }
+// }

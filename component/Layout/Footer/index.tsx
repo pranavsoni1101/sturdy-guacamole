@@ -66,13 +66,13 @@ export default function LargeWithAppLinksAndSocial() {
             <Link href={'/aboutUs'}>About Us</Link>
             <Link href={'/contactUs'}>Contact Us</Link>
           </Stack>
-
+{/* 
           <Stack align={'flex-start'}>
             <ListHeader>Support</ListHeader>
             <Link href={'#'}>Help Center</Link>
             <Link href={'#'}>Safety Center</Link>
             <Link href={'#'}>Community Guidelines</Link>
-          </Stack>
+          </Stack> */}
 
           <Stack align={'flex-start'}>
             <ListHeader>Follow Us On</ListHeader>
