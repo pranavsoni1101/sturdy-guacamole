@@ -13,7 +13,7 @@ const ProductType = (props: any) => {
 
     const router  = useRouter();
     const { productType } = router.query!;
-    console.log("this is the props",props.singleProduct.data.childrenProduct);
+    // console.log("this is the props",props);
 
     const {label, subLabel, img, childrenProduct} = props.singleProduct.data
     return(

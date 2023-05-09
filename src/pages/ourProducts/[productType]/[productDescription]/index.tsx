@@ -26,7 +26,7 @@ import Link from 'next/link';
   const ProductDetails = (props: any) => {
     console.log("Description props jejeoejalka: ", props);
     
-    const {label, img} = props.singleProduct.data;
+    const {label, img, subLabel, sizes} = props.singleProduct.data;
 
     return (
       <>
@@ -78,7 +78,7 @@ import Link from 'next/link';
                     color={useColorModeValue('gray.500', 'gray.400')}
                     fontSize={'2xl'}
                     fontWeight={'300'}>
-                    100% Cotton Cashment Quality Printed All Over&#40;full print&#41; with Different Colors & Design &#40;Geometric & Flowers&#41;  
+                    {subLabel}  
                   </Text>
                   {/* <Text fontSize={'lg'}>
                     100% Cotton Cashment Quality Printed All Over&#40;full print&#41; with Different Colors & Design &#40;Geometric & Flowers&#41;  
@@ -94,11 +94,14 @@ import Link from 'next/link';
                       Available Sizes
                   </Text>
                   <Select variant="filled">
-                    <option>60 x 90</option>
-                    <option>70 x 90</option>
-                    <option>70 x 100</option>
-                    <option>90 x 100</option>
-                    <option>100 x 120</option>
+                    {sizes!.map((size:any, index:  number)=>(
+                      // console.log(size);
+                      <option key={index}>{size}</option>
+                    ))}
+                    {/* // <option>70 x 90</option>
+                    // <option>70 x 100</option>
+                    // <option>90 x 100</option>
+                    // <option>100 x 120</option> */}
                   </Select>
                 </Box>
               </Stack>
