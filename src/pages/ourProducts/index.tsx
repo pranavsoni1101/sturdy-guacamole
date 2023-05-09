@@ -60,7 +60,6 @@ const OurProducts = (props :any) => {
                                             textTransform= "capitalize"
                                         >
                                             {product.label}
-                                            hii
                                         </Heading>
                                         <Text
                                             mt = "0.5em"
