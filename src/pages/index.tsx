@@ -119,12 +119,14 @@ const Home = () => {
 							/>
 						}
 					>
+						{/*  */}
 						<Box 
 							w = "2xs"
 						>
 							<Image 
 								m = "0 auto"
 								boxSize= "8em"
+								aria-label="Advance technology"
 								src="/adv_tech.png"
 							/>
 							<Text
@@ -137,6 +139,26 @@ const Home = () => {
 								Advance Technology
 							</Text>
 						</Box>
+						{/* ESTD */}
+						<Box 
+							w = "2xs"
+							>
+							<Image 
+								m = "0 auto"
+								boxSize= "8em"
+								aria-label="Established in 1973"
+								src="/estd.jpeg"
+								/>
+							<Text
+								mt 		   = "1em"
+								fontSize   = "xl"
+								textAlign  = "center"
+								fontWeight = "bold"
+								textTransform= "capitalize"
+								>
+								Established in 1973
+							</Text>
+						</Box>
 						{/* ISO */}
 						<Box 
 							w = "2xs"
@@ -144,24 +166,7 @@ const Home = () => {
 							<Image 
 								m = "0 auto"
 								boxSize= "8em"
-								src="/iso.png"
-							/>
-							<Text
-								mt 		   = "1em"
-								fontSize   = "xl"
-								textAlign  = "center"
-								fontWeight = "bold"
-								textTransform= "capitalize"
-							>
-								Established in 1973
-							</Text>
-						</Box>
-						<Box 
-							w = "2xs"
-						>
-							<Image 
-								m = "0 auto"
-								boxSize= "8em"
+								aria-label="iso image"
 								src="/iso.png"
 							/>
 							<Text
