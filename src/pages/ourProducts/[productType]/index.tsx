@@ -49,6 +49,8 @@ const ProductType = (props: any) => {
                                 >
                                     <Image 
                                         borderRadius= "20px 20px 0  0"
+                                        h = "xs"
+                                        w = "100%"
                                         src = {`${child.img}`}
                                     />
                                     <Box

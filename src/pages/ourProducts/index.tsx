@@ -66,7 +66,6 @@ const OurProducts = (props :any) => {
                                             noOfLines={3}
                                         >
                                             {product.subLabel}
-                                            Hello
                                         </Text>
 
                                     </Box>

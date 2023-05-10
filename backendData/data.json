@@ -80,21 +80,21 @@
 			},
 			{
 				"label": "Five Star White",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/FIVESTARWHITE_SET.jpg",
 				"subLabel": "100% Cotton Fine Quality Stripe Design with White Base",
 				"sizes": ["60 X 90", "70 X 90", "90 x 100"]
 				
 			},
 			{
-				"label": "Five Star Dekuxe",
-				"img": "/CLASSIC_SET.jpg",
+				"label": "Five Star Deluxe",
+				"img": "/FIVESTARDELUXE.jpg",
 				"subLabel": "100% Cotton Fine Quality Stripe Design with Light Colors",
 				"sizes": ["60 X 90", "70 X 90", "90 x 100"]
 				
 			},
 			{
 				"label": "Five Star Supreme",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/FIVESTARSUPREME_SET.jpg",
 				"subLabel": "100% Cotton Fine Quality Stripe Design with Dark Colors",
 				"sizes": ["60 X 90", "70 X 90", "90 x 100"]
 				
@@ -122,7 +122,7 @@
 			},
 			{
 				"label": "Kidzee",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/KIDZEE_sET.jpg",
 				"subLabel": "100% Cotton Fine Sheeting Quality having Cartoon Designs",
 				"sizes": ["60 X 90", "70 X 90", "90 x 100"]
 				
@@ -191,7 +191,7 @@
 			},
 			{
 				"label": "Plain Cashment White",
-				"img": "/LAYERS_SET.jpg",
+				"img": "/PLAINCASHMENT_SET.jpg",
 				"subLabel": "100% Cotton Cashment Quality with Plain White Base",
 				"sizes": ["60 X 90", "70 X 90", "90 x 100"]
 				
@@ -204,7 +204,7 @@
 			},
 			{
 				"label": "Plain Sheeting White",
-				"img": "/LAYERS_SET.jpg",
+				"img": "/PLAINSHEETING_SET.jpg",
 				"subLabel": "100% Cotton Sheeting Quality with Plain White Base",
 				"sizes": ["60 X 90", "70 X 90", "90 x 100"]
 				
@@ -260,14 +260,14 @@
 			},
 			{
 				"label": "Venus",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/VENUS_SET.jpg",
 				"subLabel": "100% Cotton Dyed Yarn Cashment Quality having 6 Different Colors & 6-7 Designs on each Color",
 				"sizes": ["60 X 90", "70 X 90", "90 x 100"]
 				
 			},
 			{
 				"label": "Victory",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/VICTORY_SET.jpg",
 				"subLabel": "100% Cotton Sheeting Quality Printed All Over (full print) with Dark n Different Colors & Designs (Geometric & Floral)",
 				"sizes": ["60 X 90", "70 X 90", "90 x 100"]
 				
@@ -279,18 +279,18 @@
 		"label": "Mattress Protector(WaterProof) ",
 		"subLabel":
 			"Our mattress protector offers protection to the mattress from accidents. i-sleep Mattress protector is waterproof and protects mattress against any liquid spill over by a kids, pet or during regular usage.",
-		"img": "/CLASSIC_SET.jpg",
+		"img": "/TERRY.jpg",
 		"childrenProduct": [
 			{
 				"label": "Jacquard",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/JACQUARD.jpg",
 				"subLabel": "Rich Terry Cotton surface on the top keeps feeling your body natural and fresh. SPECIAL FEATURE : Breathable, Waterproof ,Comfortable, Easy to Maintain, Anti-Dust Mite Shield, Bed-Bug Defense system.",
 				"sizes": ["36", "48", "72"]
 				
 			},
 			{
 				"label": "Terry",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/TERRY.jpg",
 				"subLabel": "Rich Terry Cotton surface on the top keeps feeling your body natural and fresh. SPECIAL FEATURE : Breathable, Waterproof ,Comfortable, Easy to Maintain, Anti-Dust Mite Shield, Bed-Bug Defense system.",
 				"sizes": ["36", "48", "72"]
 			}
@@ -304,43 +304,43 @@
 		"childrenProduct": [
 			{
 				"label": "Blue berry",
-				"img": "/CLASSIC_SET.jpg"	,
+				"img": "/BLUEBERRY_G.jpg"	,
 				"subLabel": "100% Cotton Sheeting Quality having 7 Dark Colors & 6-7 Designs on each Color",
 				"sizes": ["90 x 100", "108 x 108"]
 			},
 			{
 				"label": "Galaxy",
-				"img": "/GALAXY_SET.jpg",
+				"img": "/GALAXY_G.jpg",
 				"subLabel": "100% Cotton Cashment Quality (without Joint) having 5-6 Dark Colors with different Embroidery (Handle Bag Packing with same Photo)",
 				"sizes": ["90 x 100", "108 x 108"]
 			},
 			{
 				"label": "Kidzee",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/KIDZEE_G.jpg",
 				"subLabel": "100% Cotton Fine Sheeting Quality having Cartoon Designs",
 				"sizes": ["90 x 100", "108 x 108"]				
 			},
 			{
 				"label": "Nexa",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/NEXA_G.jpg",
 				"subLabel": "100% Cotton Twill Quality with Various Color n Designs (Gift packing with same photo)",
 				"sizes": ["90 x 100", "108 x 108"]				
 			},
 			{
 				"label": "Orchid",
-				"img": "/ORCHID_SET.jpg",
+				"img": "/ORCHID_G.jpg",
 				"subLabel": "100% Cotton Twill Quality with Various Color n Designs (Gift packing with same photo)",
 				"sizes": ["90 x 100", "108 x 108"]				
 			},
 			{
 				"label": "Senorita",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/SENORITA_G.jpg",
 				"subLabel": "100% Cotton Twill Quality with Various Color n Designs (Gift packing with same photo)",
 				"sizes": ["90 x 100", "108 x 108"]				
 			},
 			{
 				"label": "Style",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/STYLE_G.jpg",
 				"subLabel": "100% Cotton Twill Quality with Various Color n Designs (Gift packing with same photo)",
 				"sizes": ["90 x 100", "108 x 108"]				
 			},
@@ -352,19 +352,19 @@
 			},
 			{
 				"label": "Five Star Supreme",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/FIVESTARSUPREME_G.jpg",
 				"subLabel": "100% Cotton Fine Quality Stripe Design with Dark Colors",
 				"sizes": ["90 x 100", "108 x 108"]								
 			},
 			{
 				"label": "Five Star Deluxe",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/FIVESTARDELUXE_G.jpg",
 				"subLabel": "100% Cotton Fine Quality Stripe Design with Light Colors",
 				"sizes": ["90 x 100", "108 x 108"]								
 			},
 			{
 				"label": "Five Star White",
-				"img": "/CLASSIC_SET.jpg",
+				"img": "/FIVESTARWHITE_G.jpg",
 				"subLabel": "100% Cotton Fine Quality Stripe Design with White Base",
 				"sizes": ["90 x 100", "108 x 108"]								
 			}
@@ -378,94 +378,94 @@
 		"childrenProduct": [
 			{
 				"label": "Blue berry",
-				"img": "/CLASSIC_P.jpg"	,
+				"img": "/BLUEBERRY_P.jpg"	,
 				"subLabel": "100% Cotton Sheeting Quality having 7 Dark Colors & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Blossoms",
-				"img": "/BLOSSOMS_P.jpg",
+				"img": "/BLOSSOMS_P.JPG",
 				"subLabel": "100% Cotton Sheeting Quality having 7 Dark Colors & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Colors",
-				"img": "/COLORS_P.jpg",
+				"img": "/COLORS_P.JPG",
 				"subLabel": "100% Cotton Fine Cashment Quality having 6 Fluorescent Colors & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Classic",
-				"img": "/CLASSIC_P.jpg",
+				"img": "/CLASSIC_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on White BackGround with Different Colors & Small Floral Designs",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Classic Dye",
-				"img": "/CLASSICDYE_P.jpg",
+				"img": "/CLASSICDYE_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on Dark Cream BackGround with Different Colors & Small Floral Designs",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Crown",
-				"img": "/CLASSIC_P.jpg",
+				"img": "/CROWN_P.jpg",
 				"subLabel": "100% Cotton Cashment Quality having 5 Colors & 5 Designs on each Color",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Divine",
-				"img": "/DIVINE_P.jpg",
+				"img": "/DIVINE_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality Printed All Over(full print) with Different Colors & Design (Geometric & Flowers)",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Elegance",
-				"img": "/ELEGANCE_P.jpg",
+				"img": "/ELEGANCE_P.JPG",
 				"subLabel": "100% Cotton Sheeting Quality having 5-6 Colors with Different Embroidery and Patch Work",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Fantasy",
-				"img": "/FANTASY_P.jpg",
+				"img": "/FANTASY_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality having 8 Colors & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Festival",
-				"img": "/FESTIVAL_P.jpg",
+				"img": "/FESTIVAL_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality having 8 Different Colors & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Freedom",
-				"img": "/FREEDOM_P.jpg",
+				"img": "/FREEDOM_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on White BackGround with Different Colors & Designs",
 				"sizes": ["18 x 28"]				
 			},
 			{
 				"label": "Freedom Dye",
-				"img": "/FREEDOMDYE_P.jpg",
+				"img": "/FREEDOMDYE_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on White BackGround with Different Colors & Designs",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Five Star White",
-				"img": "/CLASSIC_P.jpg",
+				"img": "/FIVESTAR_P.jpg",
 				"subLabel": "100% Cotton Fine Quality Stripe Design with White Base",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Five Star Dekuxe",
-				"img": "/CLASSIC_P.jpg",
+				"img": "/FIVESTARDELUXE_P.jpg",
 				"subLabel": "100% Cotton Fine Quality Stripe Design with Light Colors",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Five Star Supreme",
-				"img": "/CLASSIC_P.jpg",
+				"img": "/FIVESTARSUPREME_P.jpg",
 				"subLabel": "100% Cotton Fine Quality Stripe Design with Dark Colors",
 				"sizes": ["18 x 28"]
 				
@@ -479,55 +479,55 @@
 			},
 			{
 				"label": "Glory",
-				"img": "/GLORY_P.jpg",
+				"img": "/GLORY_P.JPG",
 				"subLabel": "100% Cotton Twill Quality having Mix & Match Concept with Various Color Designs",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Impression",
-				"img": "/IMPRESSION_P.jpg",
+				"img": "/IMPRESSION_P.JPG",
 				"subLabel": "100% Cotton Sheeting Quality having 5-6 Colors with different Embroidery n Patch Work",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Kidzee",
-				"img": "/CLASSIC_P.jpg",
+				"img": "/KIDZEE_P.jpg",
 				"subLabel": "100% Cotton Fine Sheeting Quality having Cartoon Designs",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Layers",
-				"img": "/LAYERS_P.jpg",
+				"img": "/LAYERS_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality having 5 Different Colors(including white) & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Lotus",
-				"img": "/LOTUS_P.jpg",
+				"img": "/LOTUS_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on different Texure BackGround with Various Designs",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Magic",
-				"img": "/MAGIC_P.jpg",
+				"img": "/MAGIC_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality having 6-7 Dark Colors with different Embroidery & Printed Border",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Magnum",
-				"img": "/MAGNUM_P.jpg",
+				"img": "/MAGNUM_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality having 6-7 Dark Colors with different Embroidery",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Miracle",
-				"img": "/MIRACLE_P.jpg",
+				"img": "/MIRACLE_P.JPG",
 				"subLabel": "100% Cotton Finest Quality Sheeting having Dark Color Mix and Match concept with Various Designs",
 				"sizes": ["18 x 28"]
 				
@@ -541,7 +541,7 @@
 			},
 			{
 				"label": "Opel",
-				"img": "/OPEL_P.jpg",
+				"img": "/OPEL_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality having Designer Concept with Various Color & Designs",
 				"sizes": ["18 x 28"]
 				
@@ -555,62 +555,62 @@
 			},
 			{
 				"label": "Paradise",
-				"img": "/PARADISE_P.jpg",
+				"img": "/PARADISE_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on Different Designer(shaded) BackGround with Various Geometric Designs",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Plain Cashment White",
-				"img": "/LAYERS_P.jpg",
+				"img": "/LAYERS_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality with Plain White Base",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Polygold",
-				"img": "/POLYGOLD_P.jpg",
+				"img": "/POLYGOLD_P.JPG",
 				"subLabel": "Polyster Cotton Mix Fabric Printed with Paper Transfar Pattern",
 				"sizes": ["18 x 28"]
 			},
 			{
 				"label": "Plain Sheeting White",
-				"img": "/LAYERS_P.jpg",
+				"img": "/LAYERS_P.JPG",
 				"subLabel": "100% Cotton Sheeting Quality with Plain White Base",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Qualis",
-				"img": "/QUALIS_P.jpg",
+				"img": "/QUALIS_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on Different Designer(shaded) BackGround with Various Floral Designs",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Richlook",
-				"img": "/RICHLOOK_P.jpg",
+				"img": "/RICHLOOK_P.JPG",
 				"subLabel": "100% Cotton Sheeting Quality having Mix n Match Concept with Various Color & Designs",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Signity",
-				"img": "/SIGNITY_P.jpg",
+				"img": "/SIGNITY_P.JPG",
 				"subLabel": "100% Cotton Fine Cashment Quality having 6 Dark Colors printed via Gold Print & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Sunshine",
-				"img": "/SUNSHINE_P.jpg",
+				"img": "/SUNSHINE_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality (without Joint) having 5-6 Colors with Print & different Embroidery (Handle,Chain bag packing)",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Titanic",
-				"img": "/TITANIC_P.jpg",
+				"img": "/TITANIC_P.JPG",
 				"subLabel": "100% Cotton Cashment Quality having 9-10 Different Dark Colors & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 				
@@ -624,21 +624,21 @@
 			},
 			{
 				"label": "Vega",
-				"img": "/VEGA_P.jpg",
+				"img": "/VEGA_P.JPG",
 				"subLabel": "100% Cotton Dyed Yarn Cashment Quality having 6 Different Colors & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Venus",
-				"img": "/CLASSIC_P.jpg",
+				"img": "/CLASSIC_P.JPG",
 				"subLabel": "100% Cotton Dyed Yarn Cashment Quality having 6 Different Colors & 6-7 Designs on each Color",
 				"sizes": ["18 x 28"]
 				
 			},
 			{
 				"label": "Victory",
-				"img": "/CLASSIC_P.jpg",
+				"img": "/VICTORY_P.jpg",
 				"subLabel": "100% Cotton Sheeting Quality Printed All Over (full print) with Dark n Different Colors & Designs (Geometric & Floral)",
 				"sizes": ["18 x 28"]
 				
@@ -1019,23 +1019,326 @@
 		"label": "Cushion Covers",
 		"subLabel":
 			"These decorative Cushion Covers from our collection will surely put your bed in a great mood that you always wanted to set also you can use them as sofa cushion covers or as cushion covers for chairs",
-		"img": "./LAYERS_P.JPG"
+		"img": "./FANTASY_C.jpg",
+		"childrenProduct": [
+			{
+				"label": "Blossoms",
+				"img": "/BLOSSOMS_C.jpg",
+				"subLabel": "100% Cotton Sheeting Quality having 7 Dark Colors & 6-7 Designs on each Color",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+			},
+			{
+				"label": "Colors",
+				"img": "/COLORS_C.jpg",
+				"subLabel": "100% Cotton Fine Cashment Quality having 6 Fluorescent Colors & 6-7 Designs on each Color",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Classic",
+				"img": "/CLASSIC_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on White BackGround with Different Colors & Small Floral Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+			},
+			{
+				"label": "Classic Dye",
+				"img": "/CLASSICDYE_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on Dark Cream BackGround with Different Colors & Small Floral Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+			},
+			{
+				"label": "Divine",
+				"img": "/DIVINE_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality Printed All Over(full print) with Different Colors & Design (Geometric & Flowers)",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+			},
+			{
+				"label": "Elegance",
+				"img": "/ELEGANCE_C.jpg",
+				"subLabel": "100% Cotton Sheeting Quality having 5-6 Colors with Different Embroidery and Patch Work",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+			},
+			{
+				"label": "Fantasy",
+				"img": "./FANTASY_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality having 8 Colors & 6-7 Designs on each Color",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+			},
+			{
+				"label": "Freedom",
+				"img": "/FREEDOM_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on White BackGround with Different Colors & Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]				
+			},
+			{
+				"label": "Freedom Dye",
+				"img": "/FREEDOMDYE_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on White BackGround with Different Colors & Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+			},
+			{
+				"label": "Galaxy",
+				"img": "/GALAXY_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality (without Joint) having 5-6 Dark Colors with different Embroidery (Handle Bag Packing with same Photo)",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Glory",
+				"img": "/GLORY_C.jpg",
+				"subLabel": "100% Cotton Twill Quality having Mix & Match Concept with Various Color Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Lotus",
+				"img": "/LOTUS_C.jpg",
+				"subLabel": "100% Cotton Sheeting Quality having 5-6 Colors with different Embroidery n Patch Work",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Magnum",
+				"img": "/MAGNUM_C.jpg",
+				"subLabel": "100% Cotton Fine Sheeting Quality having Cartoon Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Magic",
+				"img": "/MAGIC_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality having 6-7 Dark Colors with different Embroidery & Printed Border",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Miracle",
+				"img": "/MIRACLE_C.jpg",
+				"subLabel": "100% Cotton Finest Quality Sheeting having Dark Color Mix and Match concept with Various Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Opel",
+				"img": "/OPEL_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality having Designer Concept with Various Color & Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Oreava",
+				"img": "/OREAVA_C.jpg",
+				"subLabel": "100% Cotton Texure Weave Cashment Quality having 5 Colors & 6-7 Designs on each Color",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Paradise",
+				"img": "/PARADISE_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on Different Designer(shaded) BackGround with Various Geometric Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Qualis",
+				"img": "/QUALIS_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality Printed via HandBlock on Different Designer(shaded) BackGround with Various Floral Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Richlook",
+				"img": "/RICHLOOK_C.jpg",
+				"subLabel": "100% Cotton Sheeting Quality having Mix n Match Concept with Various Color & Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Signity",
+				"img": "/SIGNITY_C.jpg",
+				"subLabel": "100% Cotton Fine Cashment Quality having 6 Dark Colors printed via Gold Print & 6-7 Designs on each Color",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Vega",
+				"img": "/VEGA_C.jpg",
+				"subLabel": "100% Cotton Dyed Yarn Cashment Quality having 6 Different Colors & 6-7 Designs on each Color",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Victory",
+				"img": "/VICTORY_C.jpg",
+				"subLabel": "100% Cotton Sheeting Quality Printed All Over (full print) with Dark n Different Colors & Designs (Geometric & Floral)",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+			},
+			{
+				"label": "Discovery (Shaneel)",
+				"img": "/DISCOVERY_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality with Plain White Base",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Dream (Shaneel Type)",
+				"img": "/DREAM_C.jpg",
+				"subLabel": "Polyster Cotton Mix Fabric Printed with Paper Transfar Pattern",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+			},
+			{
+				"label": "Gold Queen (Shaneel)",
+				"img": "/GOLDQUEEN_C.jpg",
+				"subLabel": "100% Cotton Sheeting Quality with Plain White Base",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Polo",
+				"img": "/POLO_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality (without Joint) having 5-6 Colors with Print & different Embroidery (Handle,Chain bag packing)",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Status",
+				"img": "/STATUS_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality having 9-10 Different Dark Colors & 6-7 Designs on each Color",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Tycoon",
+				"img": "/TYCOON_C.jpg",
+				"subLabel": "100% Cotton Cashment Quality Printed on White Background with Lining via Various Designs",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			},
+			{
+				"label": "Unique",
+				"img": "/UNIQUE_C.jpg",
+				"subLabel": "100% Cotton Dyed Yarn Cashment Quality having 6 Different Colors & 6-7 Designs on each Color",
+				"sizes": ["1 Bedsheet + 2 Bolster", "1Bedsheet + 2 Bolster + 3 Cushion", "1Bedsheet + 2 Bolster + 5 Cushion"]
+				
+			}
+		]
 	},
 	{
 		"label": "A/C Quilt / Dohar",
-		"subLabel":
-			"Beautify the interiors of your bedroom by these beautiful reversible A.C. Quilts / Dohars. The stunning design of this dohars provides a rich and vibrant feel which also makes your room more royal.",
-		"img": "https://images.unsplash.com/photo-1623111773154-05d3be4a70d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+		"subLabel":	"Beautify the interiors of your bedroom by these beautiful reversible A.C. Quilts / Dohars. The stunning design of this dohars provides a rich and vibrant feel which also makes your room more royal.",
+		"img": "/LOTUS_SET.jpg",
+		"childrenProduct":[
+			{
+				"label": "Vento",
+				"subLabel": "Printed A.C Quilt/ Dohar has both side different design, Fabric filled with Falalen cloth. (Packing with Handle Chain Bag)",
+				"img": "/VENTO_Q.jpg",
+				"sizes": ["Single", "Double"]
+			},
+			{
+				"label": "Blue Berry",
+				"subLabel": "100% Cotton Printed A.C Quilt/ Dohar has both sides White n Light Color Printed Fabric filled with Falalen cloth. (Pair Packing with Handle Chain Bag)",
+				"img": "/BLUEBERRY_Q.jpg",
+				"sizes": ["Single", "Double"]
+			},
+			{
+				"label": "Kidzee",
+				"subLabel": "100% Cotton Printed A.C Quilt/ Dohar has both side different design, Fabric filled with Falalen cloth. (Packing with Handle Chain Bag)",
+				"img": "/KIDZEE_Q.jpg",
+				"sizes": ["Single", "Double"]
+			},
+			{
+				"label": "Orchid",
+				"subLabel": "100% Cotton Printed A.C Quilt/ Dohar has both side different design, Fabric filled with Falalen cloth. (Packing with Handle Chain Bag)",
+				"img": "/ORCHID_Q.jpg",
+				"sizes": ["Single", "Double"]
+			},
+			{
+				"label": "Oxford",
+				"subLabel": "100% Cotton Printed A.C Quilt/ Dohar has both side different design, Fabric filled with Falalen cloth. (Packing with Handle Chain Bag)",
+				"img": "/OXFORD_Q.jpg",
+				"sizes": ["Single", "Double"]
+			},
+			{
+				"label": "Two in One",
+				"subLabel": "100% Cotton Printed A.C Quilt/ Dohar has both side different design, Fabric filled with Falalen cloth. (Packing with Handle Chain Bag)",
+				"img": "/TWOINONE_Q.jpg",
+				"sizes": ["Single", "Double"]
+			}
+		]
 	},
 	{
 		"label": "Table Covers",
-		"subLabel":
-			"Protect your valuable furniture from accidental spills and mishaps by spreading this durable table cover. Shaneel quality of this cover enhance the beauty of the table while ensuring proper protection. These covers also enhance the life and functionality of the Furniture.",
-		"img": "https://images.unsplash.com/photo-1576506542790-51244b486a6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGFibGUlMjBjb3ZlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-	},
+		"subLabel": "Protect your valuable furniture from accidental spills and mishaps by spreading this durable table cover. Shaneel quality of this cover enhance the beauty of the table while ensuring proper protection. These covers also enhance the life and functionality of the Furniture.",
+		"img": "/GOLDQUEEN_TC.jpg",
+		"childrenProduct":[
+			{
+				"label": "Magic",
+				"subLabel": "Heavy Quality Designer Wrinkle Free Table Cover, Designs made during Weaving having various Color n Designs",
+				"img": "/MAGIC_TC.jpg",
+				"sizes": ["Center Table", "Dining Table"]
+			},
+			{
+				"label": "Discovery (Shaneel)",
+				"subLabel": "Heavy Quality Designer Wrinkle Free Table Cover, Designs made during Weaving having various Color n Designs",
+				"img": "/DISCOVERY_TC.jpg",
+				"sizes": ["Center Table", "Dining Table"]
+			},
+			{
+				"label": "Dream (Shaneel Type)",
+				"subLabel": "Heavy Quality Designer Wrinkle Free Table Cover, Designs made during Weaving having various Color n Designs",
+				"img": "/DREAM_TC.jpg",
+				"sizes": ["Center Table", "Dining Table"]
+			},
+			{
+				"label": "Gold Queen (Shaneel)",
+				"subLabel": "Heavy Quality Designer Wrinkle Free Table Cover, Designs made during Weaving having various Color n Designs",
+				"img": "/GOLDQUEENN_TC.jpg",
+				"sizes": ["Center Table", "Dining Table"]
+			},
+			{
+				"label": "Polo",
+				"subLabel": "Heavy Quality Designer Wrinkle Free Table Cover, Designs made during Weaving having various Color n Designs",
+				"img": "/POLO_TC.jpg",
+				"sizes": ["Center Table", "Dining Table"]
+			},
+			{
+				"label": "Status",
+				"subLabel": "Heavy Quality Designer Wrinkle Free Table Cover, Designs made during Weaving having various Color n Designs",
+				"img": "/STATUSS_TC.jpg",
+				"sizes": ["Center Table", "Dining Table"]
+			},
+			{
+				"label": "Tycoon",
+				"subLabel": "Heavy Quality Designer Wrinkle Free Table Cover, Designs made during Weaving having various Color n Designs",
+				"img": "/TYCOON_TC.jpg",
+				"sizes": ["Center Table", "Dining Table"]
+			},
+			{
+				"label": "Unique (Shaneel)",
+				"subLabel": "Heavy Quality Designer Wrinkle Free Table Cover, Designs made during Weaving having various Color n Designs",
+				"img": "/UNIQUE_TC.jpg",
+				"sizes": ["Center Table", "Dining Table"]
+			}
+		]
+		},
 	{
 		"label": "Topsheet",
-		"subLabel":
-			"These Topsheets are skin friendly and therefore does not make any kind of discomfort or irritation. Moreover, you will never feel any fade in the color or textures in the topsheets even after having a machine wash. We intend you to provide with the premium quality and extraordinary topsheets , so that you can have luxuries feel in your bed room ",
-		"img": "https://images.unsplash.com/photo-1516707471165-777029111409?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cXVpbHR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-	}]}
+		"subLabel": "These Topsheets are skin friendly and therefore does not make any kind of discomfort or irritation. Moreover, you will never feel any fade in the color or textures in the topsheets even after having a machine wash. We intend you to provide with the premium quality and extraordinary topsheets , so that you can have luxuries feel in your bed room ",
+		"img": "/TOPSHEET_OPEL.jpg",
+		"childrenProduct": [
+			{
+				"label": "Safari",
+				"img": "/TOPSHEET_SAFARI.jpg",
+				"subLabel": "A single layer Topsheet (This is not a double layer dohar)",
+				"sizes": ["Single"]
+				
+			},
+			{
+				"label": "Opel",
+				"img": "/TOPSHEET_OPEL.jpg",
+				"subLabel": "A single layer Topsheet (This is not a double layer dohar)",
+				"sizes": ["Single"]
+				
+			}
+		]
+}]}
