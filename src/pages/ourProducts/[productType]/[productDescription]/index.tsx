@@ -24,7 +24,7 @@ import Link from 'next/link';
   import { MdLocalShipping } from 'react-icons/md';
   
   const ProductDetails = (props: any) => {
-    console.log("Description props jejeoejalka: ", props);
+    // console.log("Description props jejeoejalka: ", props);
     
     const {label, img, subLabel, sizes} = props.singleProduct.data;
 
