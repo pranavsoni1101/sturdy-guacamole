@@ -276,25 +276,24 @@
 		]
 	},
 	{
-		"label": "Mattress Protector(WaterProof) ",
-		"subLabel":"Our mattress protector offers protection to the mattress from accidents. i-sleep Mattress protector is waterproof and protects mattress against any liquid spill over by a kids, pet or during regular usage.",
+		"label":"Waterproof Mattress Protector",
+		"subLabel": "Our mattress protector offers protection to the mattress from accidents. i-sleep Mattress protector is waterproof and protects mattress against any liquid spill over by a kids, pet or during regular usage.",
 		"img": "/TERRY.jpg",
-		"childrenProduct": [
+		"childrenProduct":[
 			{
 				"label": "Jacquard",
-				"img": "/JACQUARD.jpg",
 				"subLabel": "Rich Terry Cotton surface on the top keeps feeling your body natural and fresh. SPECIAL FEATURE : Breathable, Waterproof ,Comfortable, Easy to Maintain, Anti-Dust Mite Shield, Bed-Bug Defense system.",
+				"img": "/JACQUARD.jpeg",
 				"sizes": ["36", "48", "72"]
-				
 			},
 			{
 				"label": "Terry",
-				"img": "/TERRY.jpg",
 				"subLabel": "Rich Terry Cotton surface on the top keeps feeling your body natural and fresh. SPECIAL FEATURE : Breathable, Waterproof ,Comfortable, Easy to Maintain, Anti-Dust Mite Shield, Bed-Bug Defense system.",
+				"img": "/TERRY.jpg",
 				"sizes": ["36", "48", "72"]
 			}
 		]
-	},
+	},	
 	{
 		"label": "Gift Packing",
 		"subLabel":
