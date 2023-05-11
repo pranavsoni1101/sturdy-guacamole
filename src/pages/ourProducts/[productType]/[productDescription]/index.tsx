@@ -123,11 +123,11 @@ import Link from 'next/link';
                 }}>
                 Contact Us to Purchase
               </Button>
-    
+{/*     
               <Stack direction="row" alignItems="center" justifyContent={'center'}>
                 <MdLocalShipping />
                 <Text>2-3 business days delivery</Text>
-              </Stack>
+              </Stack> */}
             </Stack>
           </SimpleGrid>
           <Box
